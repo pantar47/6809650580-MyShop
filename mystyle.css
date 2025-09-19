@@ -361,5 +361,45 @@ body {
 
 
 
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #fff5f8, #ffeef3);
+      color: #333;
+    }
+
+    
+    .navbar {
+      background: #f4e1e6;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+      margin: 20px auto 35px;
+      max-width: 900px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .navbar nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #444;
+      font-weight: 600;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .navbar nav a:hover {
+      color: #e91e63;
+    }
+
+
+
 
 
