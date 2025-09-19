@@ -272,6 +272,77 @@ body {
       color: #e91e63;
     }
 
+    .cone-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 30px;
+      background: #ffebee;
+      border-radius: 30px;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .cone-passage {
+      font-family: 'Urban Shadow', cursive;
+      background: #fff;
+      color: #333;
+      border-radius: 30px;
+      padding: 12px 25px;
+      font-size: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    
+    .cone-desc {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 0 20px 50px;
+    }
+
+    .cone-item {
+      width: 250px;
+      background: #fff;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .cone-item img {
+      width: 140px;
+      height: auto;
+      margin-bottom: 15px;
+      transition: transform 0.3s;
+    }
+
+    .cone-item:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .cone-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .cone-item p {
+      margin: 8px 0;
+      color: #555;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .cone-item strong {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #e91e63;
+    }
+
 
 
 
